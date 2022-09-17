@@ -1,0 +1,129 @@
+.landingpage{
+  background-color: #effffb;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display:grid;
+  grid-template-columns: repeat(2, 50vw );
+  padding-left: 2vw;
+}
+
+.g-left{
+  align-self: center;
+}
+.g-right{
+  margin-top: 10%;
+}
+@keyframes typing{
+  0%{width: 0;}
+  25%{width: 100%;}
+  75%{width: 100%;}
+  100%{width: 0;}
+}
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: #ff7070; }
+}
+
+.typed-out{
+  display: inline-block;
+  width: fit-content;
+}
+
+.typed-out > h1{
+  animation: typing 3s steps(15,end)  infinite, blink 1.2s infinite;
+  border-right: 5px solid #ff7070;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+}
+  
+
+button{
+  width: 12vw;
+  color:whitesmoke;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 5vh;
+  background-color: #359c4b;
+  cursor: pointer;
+  border: none;
+  margin: 3px;
+  box-shadow: 1px 1px 5px  #359c4b;
+}
+.readmore-btn{
+  background-color: transparent;
+  color: black;
+}
+.aboutpage{
+  width: 100vw;
+  height:100vh;
+  display:grid;
+  grid-template-rows: 20vh auto;
+}
+.aboutpage >h1{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  justify-self: center;
+}
+.big-card{
+  grid-column-start: 2;
+  grid-column-end: 3; 
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-right: 10%;
+  align-items: center;
+}
+.image{
+  height:100%;
+  width:50%;
+}
+
+
+.about-content{
+  width: 50%;
+padding-left: 10%;
+padding-right: 10%;
+}
+
+.workspage{
+  height: max-content;
+  /* width:100vw; */
+
+}
+.g-list{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.workscard{
+  padding: 4px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 24%;
+  box-shadow:  3px 3px 10px  #66b978;
+}
+
+button:hover{
+  box-shadow: none;
+}
+
+.contactpage{
+  height:max-content;
+  text-align: center;
+  margin: 20px;
+}
+form{
+  padding: 20px;
+  border: 1px solid #ff7070;
+  border-radius: 10px;
+  width:50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+}
