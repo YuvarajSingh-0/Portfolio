@@ -37,7 +37,7 @@ label{
 .media{
   position: absolute;
   left:-10px;
-  top:40%;
+  top:30%;
   
 }
 .media li{
@@ -48,7 +48,7 @@ label{
   border-radius: 0 20px 20px 0;
 }
 li img{
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   margin-right: 10px;
 }

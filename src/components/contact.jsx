@@ -15,7 +15,12 @@ export function Contact() {
         <li>
           <img src={require("../img/github.png")} alt="" />
         </li>
-        <li>fb</li>
+        <li>
+          <img src={require("../img/linkedin.png")} alt="" />
+        </li>
+        <li>
+          <img src={require("../img/gmail.png")} alt="" />
+        </li>
       </ul>
     </div>
   );
