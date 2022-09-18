@@ -28,15 +28,9 @@ export function LandingPage() {
         </div>
         <div>
           <span>
-            <button>button</button>
-          </span>
-          <span>
-            <button className="readmore-btn">read more</button>
+            <button>My Portfolio</button>
           </span>
         </div>
-      </div>
-      <div className="g-right">
-        <img src={require("../img/working.png")} alt="lol" />
       </div>
     </div>
   );

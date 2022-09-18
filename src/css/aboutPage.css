@@ -1,0 +1,32 @@
+.aboutpage{
+  min-height: max-content;
+  background: #023047;
+  text-align: center;
+  padding: 10% 0;
+  color: whitesmoke;
+}
+.flex{
+  display:flex;
+  flex-direction:row;
+  border: 2px solid  white;
+  width: 75%;
+  padding:20px 0;
+  margin:0 auto;
+  justify-content:space-around;
+  align-items:center;
+  align-content:space-around;
+
+}
+.img{
+  width: 50vw;
+  text-align: center;
+}
+.img img{
+  width:50%;
+  object-fit: cover;
+  object-position: center;
+}
+.aboutcontent{
+  width: 50vw;
+  padding: 0px 3rem 0rem 1rem;;
+}
