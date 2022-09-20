@@ -6,7 +6,7 @@ export function WorksCard(props) {
       rel="noreferrer"
       className={props.className}
     >
-      <p style={{ "font-size": "2rem" }}>{props.title}</p>
+      <p style={{ fontSize: "2rem" }}>{props.title}</p>
       <br />
       <p>{props.desc}</p> <br />
     </a>

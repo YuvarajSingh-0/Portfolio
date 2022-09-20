@@ -1,22 +1,45 @@
 .contactpage{
   background-color: #e76f51;
-  height: 65vh;
+  height: max-content;
   position: relative;
   text-align: center;
   padding-top: 10vh;
+  padding-bottom: 10vh;
 }
 .contactpage button{
   background-color: #023047;
   box-shadow: none;
   color: white;
 }
-form{
+.formgroup{
   display: inline-block;
   padding: 25px;
   border-radius: 5px;
   border:2px solid black;
+  width: 60%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
 }
-input{
+@media screen and (min-width: 650px){
+  .formgroup{
+    grid-template-columns: 30% 70%;
+    /* height: 100vh; */
+  }
+  
+}
+@media screen and (min-width: 975px){
+  .formgroup{
+    width: 540px;
+  }
+  
+}
+  
+
+
+input, textarea{
   margin: 10px;
   padding: 5px;
   border-radius: 5px;
@@ -24,9 +47,8 @@ input{
   background-color: #219ebc; 
   color: black;
 }
-input::selection{
+input::selection, textarea::selection{
   background-color: #ffb703;
-  /* color: ; */
 }
 label{
   margin: 10px;
@@ -35,18 +57,16 @@ label{
   border:2px solid black;   
 }
 
-
-  .media{
-    position: relative;
-    margin-top: 1rem;
-    left:0px;
-    top:0px;
-  }
-  ul li{
-    display: inline-block;
-    background-color: black;
-    border-radius: 20px;
-
+.media{
+  position: relative;
+  margin-top: 1rem;
+  left:0px;
+  top:0px;
+}
+ul li{
+  display: inline-block;
+  background-color: black;
+  border-radius: 20px;
   }
 
 @media screen and (min-width:600px) {
@@ -70,4 +90,8 @@ li img{
   width: 40px;
   height: 40px;
   margin-right: 10px;
+}
+.formgroup button:hover{
+  background-color: #023047;
+  color: white;
 }
