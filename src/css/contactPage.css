@@ -34,19 +34,38 @@ label{
   border-radius: 5px;
   border:2px solid black;   
 }
-.media{
-  position: absolute;
-  left:-10px;
-  top:30%;
-  
+
+
+  .media{
+    position: relative;
+    margin-top: 1rem;
+    left:0px;
+    top:0px;
+  }
+  ul li{
+    display: inline-block;
+    background-color: black;
+    border-radius: 20px;
+
+  }
+
+@media screen and (min-width:600px) {
+  .media li{
+    display:block;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding:3px 3px 2px 20px;
+    background-color: #ffb703;
+    border-radius: 0 20px 20px 0;
+  }
+  .media{
+    position: absolute;
+    left:-10px;
+    top:30%;
+    
+  }
 }
-.media li{
-  margin: 10px;
-  margin-bottom: 15px;
-  padding:3px 3px 2px 20px;
-  background-color: #ffb703;
-  border-radius: 0 20px 20px 0;
-}
+
 li img{
   width: 40px;
   height: 40px;

@@ -1,11 +1,9 @@
 export function WorksCard(props) {
   return (
-    // <a href="https://www.google.com">
-    <div className={props.className}>
+    <a href={props.href} target="_blank" className={props.className}>
       <p style={{ "font-size": "2rem" }}>{props.title}</p>
       <br />
       <p>{props.desc}</p> <br />
-    </div>
-    // </a>
+    </a>
   );
 }

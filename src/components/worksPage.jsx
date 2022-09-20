@@ -3,19 +3,28 @@ import { WorksCard } from "./worksCard";
 export function WorksPage() {
   return (
     <div className="workspage">
-      <h1>My Works</h1>
+      <a
+        href="https://yuvarajsingh-0.github.io/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <h1>My Works</h1>
+      </a>
       <div className="g-list">
         <WorksCard
+          href="https://yuvarajsingh-0.github.io/clock.html"
           className="item workscard"
           title="Digital Clock"
           desc="Live Digital Clock with 12 Hour Format implemented in Vanilla JS"
         />
         <WorksCard
+          href="https://yuvarajsingh-0.github.io/stopwatch.html"
           className="item workscard"
           title="StopWatch"
           desc="A Simple Stopwatch with Start, Stop, Reset Buttons implemented in Vanilla JS"
         />
         <WorksCard
+          href="https://todoo-web-app.herokuapp.com/"
           className="item workscard"
           title="ToDo List Web App"
           desc=" A Simple Todo List with Authentication, MongoDB implemented in
@@ -23,11 +32,13 @@ export function WorksPage() {
           on MongoDB"
         />
         <WorksCard
+          href="https://yuvarajsingh-0.github.io/simplest-qrcode-gen/"
           className="item workscard"
           title="Simplest QR Code Gen"
           desc=" The Simplest QR Code Generator you will find implemented with React JS and a public QR code API"
         />
         <WorksCard
+          href="https://discord.gg/FpaMaS8ppf"
           className="item workscard"
           title="Discord Bot"
           desc="A simple and general Discord bot constantly improving and adding

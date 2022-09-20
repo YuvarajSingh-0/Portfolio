@@ -10,11 +10,21 @@
   flex-direction:row;
   border: 2px solid  white;
   width: 75%;
-  padding:20px 0;
+  gap: 10px;
+  padding:20px 25px;
   margin:0 auto;
   justify-content:space-around;
   align-items:center;
   align-content:space-around;
+
+}
+@media screen and (max-width: 600px){
+  .flex{
+    flex-direction:column;
+    width: 100%;
+    /* margin-left: 10px; */
+    /* margin:10px; */
+  }
 
 }
 .img{
@@ -27,6 +37,6 @@
   object-position: center;
 }
 .aboutcontent{
-  width: 50vw;
-  padding: 0px 3rem 0rem 1rem;;
+  width: 75vw;
+  /* padding: 0px 3rem 0rem 1rem;; */
 }
