@@ -28,7 +28,7 @@ export function LandingPage() {
         </div>
         <div>
           <span>
-            <button>My Portfolio</button>
+            <button data-aos="blue_btn_flicker">My Portfolio</button>
           </span>
         </div>
       </div>

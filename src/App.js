@@ -1,6 +1,6 @@
 import "./App.css";
 import "./css/worksPage.scss";
-import "./css/landingPage.css";
+import "./css/landingPage.scss";
 import "./css/aboutPage.scss";
 import "./css/contactPage.scss";
 import { LandingPage } from "./components/landingPage";
