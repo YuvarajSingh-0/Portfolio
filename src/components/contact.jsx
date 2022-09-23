@@ -2,10 +2,9 @@ import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import { useState } from "react";
-import "../css/contactPage.css";
 export function Contact() {
   const toastifySuccess = () => {
-    toast("Form sent!", {
+    toast.success("Form sent!", {
       position: "bottom-right",
       autoClose: 5000,
       hideProgressBar: true,
@@ -24,6 +23,29 @@ export function Contact() {
       closeOnClick: true,
       pauseOnHover: true,
       draggable: false,
+      className: "toast-message",
+      toastId: "notifyToast",
+    });
+  };
+  const mobileToastifySuccess = () => {
+    toast.success("Form sent!", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: false,
+      toastId: "notifyToast",
+    });
+  };
+  const mobileToastifyFail = () => {
+    toast.error("Form failed to send.", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: true,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: false,
       className: "submit-feedback fail",
       toastId: "notifyToast",
     });
@@ -33,8 +55,13 @@ export function Contact() {
     e.preventDefault();
     const { name, email, message } = data;
     if (name === "" || email === "" || message === "") {
-      toastifyFail();
-      return;
+      if (window.innerWidth < 768) {
+        mobileToastifyFail();
+        return;
+      } else {
+        toastifyFail();
+        return;
+      }
     }
 
     try {
@@ -49,9 +76,13 @@ export function Contact() {
         templateParams,
         process.env.REACT_APP_USER_ID
       );
-      // emailjs.reset();
       setData({ name: "", email: "", message: "" });
-      toastifySuccess();
+      if (window.innerWidth < 768) {
+        mobileToastifySuccess();
+        return;
+      } else {
+        toastifySuccess();
+      }
     } catch (e) {
       console.log(e);
       toastifyFail();
@@ -63,47 +94,54 @@ export function Contact() {
 
   return (
     <div className="contactpage">
-      <h1>contact</h1>
-      <form className="formgroup">
-        <label htmlFor="name">Name</label>
+      <h1>Contact</h1>
+      <form className="formgroup" data-aos="green_flicker">
         <input
+          data-aos="green_flicker"
           name="name"
           type="text"
-          placeholder="Ex: John"
+          value={data.name}
+          onChange={handleChange}
+        />
+        <label htmlFor="name">Name</label>
+
+        <input
+          data-aos="green_flicker"
+          name="email"
+          type="email"
+          placeholder=""
+          value={data.email}
           onChange={handleChange}
         />
         <label htmlFor="email">Email</label>
-        <input
-          name="email"
-          type="email"
-          placeholder="john@email.com"
+
+        <textarea
+          data-aos="green_flicker"
+          name="message"
+          value={data.message}
           onChange={handleChange}
         />
         <label htmlFor="message">Message</label>
-        <textarea
-          name="message"
-          placeholder="Your message"
-          onChange={handleChange}
-        />
         <br />
         <button type="submit" onClick={onSubmit}>
           Send
         </button>
       </form>
+
       <ToastContainer />
       <ul className="media">
         <a href="https://github.com/YuvarajSingh-0">
-          <li>
+          <li data-aos="green_flicker">
             <img src={require("../img/github.png")} alt="" />
           </li>
         </a>
         <a href="https://www.linkedin.com/in/yuvarajsingh">
-          <li>
+          <li data-aos="green_flicker">
             <img src={require("../img/linkedin.png")} alt="" />
           </li>
         </a>
         <a href="mailto:yuvarajsingh170@gmail.com">
-          <li>
+          <li data-aos="green_flicker">
             <img src={require("../img/gmail.png")} alt="" />
           </li>
         </a>

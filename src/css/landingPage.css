@@ -1,5 +1,5 @@
 .landingpage{
-    background-color: #8ecae6;
+    background-color: #020504;
     min-height: 100vh;
     width: 100vw;
     margin: 0;
@@ -8,6 +8,9 @@
     padding-left: 2vw;
   }
   
+.landingpage h2, .landingpage h1{
+  color:white;
+}
   .g-left{
     align-self: center;
   }
@@ -22,7 +25,7 @@
   }
   @keyframes blink {
     from { border-color: transparent }
-    to { border-color: #ff7070; }
+    to { border-color: rgb(8, 119, 223); }
   }
   
   .typed-out{
@@ -41,14 +44,22 @@
   }
     
   
-  button{
+  .landingpage button{
     color:black;
     padding: 5px 10px;
     border-radius: 3px;
-    background-color: #fb8500;
+    background-color: rgb(8, 119, 223);
     cursor: pointer;
     border: none;
     margin: 3px;
+    border: 2px solid rgb(8, 119, 223);
     overflow: scroll;
-    box-shadow: 1px 1px 5px  #fb8500;
+    box-shadow: 0px 0px 8px  rgb(8, 119, 223);
   }
+  .landingpage button:hover{
+    background-color: transparent;
+    /* box-shadow:none; */
+    color: rgb(8, 119, 223);
+    text-shadow: 0px 0px 5px rgb(8, 119, 223);
+  }
+  

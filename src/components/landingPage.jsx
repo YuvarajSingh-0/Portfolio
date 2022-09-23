@@ -7,7 +7,7 @@ export function LandingPage() {
 
   React.useEffect(() => {
     var oi = 0;
-    var l = ["A Web Developer", "Problem Solver", "Yuvaraj Singh"];
+    var l = ["A Web Developer", "A Tech Enthusiast", "Yuvaraj Singh"];
     const interval = setInterval(() => {
       setTxt(l[oi]);
       oi = oi + 1;

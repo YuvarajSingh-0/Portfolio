@@ -1,8 +1,8 @@
 import "./App.css";
-import "./css/worksPage.css";
+import "./css/worksPage.scss";
 import "./css/landingPage.css";
-import "./css/aboutPage.css";
-import "./css/contactPage.css";
+import "./css/aboutPage.scss";
+import "./css/contactPage.scss";
 import { LandingPage } from "./components/landingPage";
 // import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { About } from "./components/about";

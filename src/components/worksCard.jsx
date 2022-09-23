@@ -1,6 +1,7 @@
 export function WorksCard(props) {
   return (
     <a
+      data-aos={props.anime}
       href={props.href}
       target="_blank"
       rel="noreferrer"
