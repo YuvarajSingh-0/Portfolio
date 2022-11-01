@@ -29,14 +29,16 @@ export function About() {
           <img src={require("../img/assasin.png")} alt="person" />
         </div>
         <div className="aboutcontent">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet alias,
-          error est incidunt voluptas ad mollitia officia expedita consectetur?
-          Ut voluptatem sapiente ratione, officiis, assumenda eius aperiam
-          deleniti harum vero eaque animi neque. <br /> <br /> Deleniti,
-          accusantium. Officia sed voluptatibus architecto iusto natus hic
-          doloremque provident placeat laudantium, voluptate pariatur illo
-          aperiam vero adipisci beatae unde dolores enim, eos atque mollitia.
-          Esse!
+          I'm Yuvaraj, a passionate, enthusiastic, determined programmer as well
+          as upcoming developer I've done some begginer level projects or you
+          can say 'Tasks' that helped me getting a better understanding upon the
+          topics which are used in building those. Ran into multiple weird
+          errors but google was always there to help 😅 Googled a lot, found
+          some ways that solved the errors and some ways become roots to some
+          ideas. <br />
+          <br></br>Thats all I have to say regarding the programming aspect of
+          myself. Apart from Learning, I watch a lot of movies and webseries out
+          of my little time that I have left from learning stuff.
         </div>
       </div>
     </div>
