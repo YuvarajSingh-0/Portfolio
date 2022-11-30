@@ -40,16 +40,16 @@ label[ for="name"]{
   transition: top 0.1s ease-in-out,left 0.1s ease-in-out,font-size 0.1s ease-in-out;
   position:absolute;
   left:4.5rem;
-  top:3.5rem;
-  color:azure;
+  top:3.35rem;
+  color:rgb(230, 255, 230);
   z-index:0;
 }
 label[ for="email"]{
   transition: top 0.1s ease-in-out,left 0.1s ease-in-out,font-size 0.1s ease-in-out;
   position:absolute;
   left:4.5rem;
-  top:8.5rem;
-  color:azure;
+  top:8.35rem;
+  color:rgb(230, 255, 230);
   z-index:0;
 }
 input[name = "name"]:focus + label[for="name"], input[name="name"]:not([value=""]) + label[for="name"]{

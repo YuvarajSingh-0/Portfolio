@@ -6,6 +6,7 @@ export function WorksCard(props) {
       target="_blank"
       rel="noreferrer"
       className={props.className}
+      download
     >
       <p style={{ fontSize: "2rem" }}>{props.title}</p>
       <br />
