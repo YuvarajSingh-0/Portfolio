@@ -1,12 +1,16 @@
 .contactpage{
-  background-color: #020504;
+  // background-color: #020504;
+  background-color: #111927;
+  background-image: 
+      radial-gradient(at 47% 0%, hsl(120.00, 100%, 34%) 0, transparent 59%), 
+      radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
   height: max-content;
   position: relative;
   text-align: center;
   padding-top: 10vh;
   padding-bottom: 10vh;
   color: azure;
-  border-top: 2px solid rgb(0, 173, 0);
+  // border-top: 2px solid rgb(0, 173, 0);
   box-shadow: 0 0 10px rgb(0, 173, 0), inset 0 11px 10px -10px rgb(0, 173, 0);
 }
 .formgroup{
@@ -14,6 +18,11 @@
   display: inline-block;
   padding: 25px;
   border-radius: 5px;
+  backdrop-filter: blur(5px) saturate(200%);
+  -webkit-backdrop-filter: blur(5px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.59);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
   border:2px solid rgb(0, 173, 0);
   box-shadow: 0 0 10px rgb(0, 173, 0);
   width: 60%;
@@ -36,64 +45,65 @@ input,textarea{
   background-color:transparent;
   z-index: 1;
 }
-label[ for="name"]{
-  transition: top 0.1s ease-in-out,left 0.1s ease-in-out,font-size 0.1s ease-in-out;
-  position:absolute;
-  left:4.5rem;
-  top:3.35rem;
-  color:rgb(230, 255, 230);
-  z-index:0;
-}
-label[ for="email"]{
-  transition: top 0.1s ease-in-out,left 0.1s ease-in-out,font-size 0.1s ease-in-out;
-  position:absolute;
-  left:4.5rem;
-  top:8.35rem;
-  color:rgb(230, 255, 230);
-  z-index:0;
-}
-input[name = "name"]:focus + label[for="name"], input[name="name"]:not([value=""]) + label[for="name"]{
-  visibility:visible;
-  color:rgb(0, 173, 0);
-  top:2.2rem;
-  left:4.5rem;
-  background-color: #020504;
-  text-shadow: 0 0 10px rgb(0, 173, 0);
-  z-index:1;
-  padding:1px;
-  font-size:0.8rem;
-}
-input[name = "email"]:focus ~ label[for="email"], input[name="email"]:not([value=""]) ~ label[for="email"] {
-  visibility:visible;
-  color:rgb(0, 173, 0);
-  top:7.3rem;
-  left:4.5rem;
-  background-color: #020504;
-  text-shadow: 0 0 10px rgb(0, 173, 0);
-  z-index:1;
+// label[ for="name"]{
+//   transition: top 0.1s ease-in-out,left 0.1s ease-in-out,font-size 0.1s ease-in-out;
+//   position:absolute;
+//   left:4.5rem;
+//   top:3.35rem;
+//   color:rgb(230, 255, 230);
+//   z-index:0;
+// }
+// label[ for="email"]{
+//   transition: top 0.1s ease-in-out,left 0.1s ease-in-out,font-size 0.1s ease-in-out;
+//   position:absolute;
+//   left:4.5rem;
+//   top:8.35rem;
+//   color:rgb(230, 255, 230);
+//   z-index:0;
+// }
+// input[name = "name"]:focus + label[for="name"], input[name="name"]:not([value=""]) + label[for="name"]{
+//   visibility:visible;
+//   color:rgb(0, 173, 0);
+//   top:2.2rem;
+//   left:4.5rem;
+//   background-color: #020504;
+//   text-shadow: 0 0 10px rgb(0, 173, 0);
+//   z-index:1;
+//   padding:1px;
+//   font-size:0.8rem;
+// }
+// input[name = "email"]:focus ~ label[for="email"], input[name="email"]:not([value=""]) ~ label[for="email"] {
+//   visibility:visible;
+//   color:rgb(0, 173, 0);
+//   top:7.3rem;
+//   left:4.5rem;
+//   background-color: #020504;
+//   text-shadow: 0 0 10px rgb(0, 173, 0);
+//   z-index:1;
  
-  padding:1px;
-  font-size:0.8rem;
-}
-label[ for="message"]{
-  transition: top 0.1s ease-in-out,left 0.1s ease-in-out,font-size 0.1s ease-in-out;
-  position:absolute;
-  left:4.5rem;
-  top:13.5rem;
-  color:azure;
-  z-index:0;
-}
-textarea[name = "message"]:focus + label[for="message"], textarea[name="message"]:not([value=""]) + label[for="message"]{
-  visibility:visible;
-  color:rgb(0, 173, 0);
-  left:4.5rem;
-  top:12.3rem;
-  background-color: #020504;
-  text-shadow: 0 0 10px rgb(0, 173, 0);
-  z-index:1;
-  padding:1px;
-  font-size:0.8rem;
-}
+//   padding:1px;
+//   font-size:0.8rem;
+// }
+// label[ for="message"]{
+//   // transition: top 0.1s ease-in-out,left 0.1s ease-in-out,font-size 0.1s ease-in-out;
+//   position:absolute;
+//   // left:4.5rem;
+//   // top:13.5rem;
+//   background-color: rgba(239, 22, 22, 0);
+//   color:azure;
+//   z-index:0;
+// }
+// textarea[name = "message"]:focus + label[for="message"], textarea[name="message"]:not([value=""]) + label[for="message"]{
+//   visibility:visible;
+//   color:rgb(0, 173, 0);
+//   left:4.5rem;
+//   top:12.3rem;
+//   background-color: #020504;  
+//   text-shadow: 0 0 10px rgb(0, 173, 0);
+//   z-index:1;
+//   padding:1px;
+//   font-size:0.8rem;
+// }
 input::selection, textarea::selection{
   background-color: #ffb703;
 }
@@ -106,7 +116,12 @@ input::selection, textarea::selection{
 }
 ul li{
   display: inline-block;
-  background-color: black;
+  // background-color: black; 
+  backdrop-filter: blur(5px) saturate(200%);
+    -webkit-backdrop-filter: blur(5px) saturate(200%);
+    background-color: rgba(17, 25, 40, 0.59);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
   border-radius: 20px;
   }
 
@@ -157,6 +172,7 @@ li img{
 
 .contactpage button:hover{
   background-color: transparent;
+  transition: all 0.3s ease-in-out;
   color: rgb(0, 173, 0);
   text-shadow: 0px 0px 5px rgb(0, 173, 0);
 }

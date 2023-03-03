@@ -1,4 +1,4 @@
-import emailjs from "emailjs-com";
+import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.min.css";
 import { useState } from "react";
@@ -102,26 +102,28 @@ export function Contact() {
           type="text"
           value={data.name}
           onChange={handleChange}
+          placeholder="Name"
         />
-        <label htmlFor="name">Name</label>
+        {/* <label htmlFor="name">Name</label> */}
 
         <input
           data-aos="green_flicker"
           name="email"
           type="email"
-          placeholder=""
+          placeholder="Email"
           value={data.email}
           onChange={handleChange}
         />
-        <label htmlFor="email">Email</label>
+        {/* <label htmlFor="email">Email</label> */}
 
         <textarea
           data-aos="green_flicker"
           name="message"
           value={data.message}
           onChange={handleChange}
+          placeholder="Message"
         />
-        <label htmlFor="message">Message</label>
+        {/* <label htmlFor="message">Message</label> */}
         <br />
         <button type="submit" onClick={onSubmit}>
           Send

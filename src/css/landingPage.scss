@@ -1,120 +1,163 @@
-.landingpage{
-    background-color: #020504;
-    min-height: 100vh;
-    width: 100vw;
-    margin: 0;
-    display:grid;
-    grid-template-columns: repeat(2, 50vw );
-    padding-left: 2vw;
-  }
-  
-.landingpage h2, .landingpage h1{
-  color:white;
+.landingpage {
+  background-color: #020504;
+  // background: rgb(2,0,36);
+  background-color: #111927;
+  background-image: 
+      radial-gradient(at 47% 100%, hsl(209.02, 93%, 45%) 0, transparent 59%), 
+      radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+  // background-image: url("https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2020/05/shutterstock_407554567.jpg");
+  // background-size: cover;
+  // background-repeat: no-repeat;
+  // object-fit: contain;
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 50vw);
+  padding-left: 2vw;
 }
-  .g-left{
-    align-self: center;
-  }
-  .g-right{
-    margin-top: 10%;
-  }
-  @keyframes typing{
-    0%{width: 0;}
-    25%{width: 100%;}
-    75%{width: 100%;}
-    100%{width: 0;}
-  }
-  @keyframes blink {
-    from { border-color: transparent }
-    to { border-color: rgb(8, 119, 223); }
-  }
+
+.landingpage h2,
+.landingpage h1 {
   
-  .typed-out{
-    display: inline-block;
-    width: fit-content;
-    text-overflow: auto;
-    white-space: normal;
-  }
-  
-  .typed-out > h1{
-    animation: typing 3s steps(15,end)  infinite, blink 1.2s infinite;
-    border-right: 5px solid #ff7070;
-    overflow: hidden;
-    white-space: nowrap;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.g-left {
+  align-self: center;
+}
+
+.g-right {
+  margin-top: 10%;
+}
+
+@keyframes typing {
+  0% {
     width: 0;
   }
-    
-  
-  .landingpage button{
-    color:black;
-    padding: 5px 10px;
-    border-radius: 3px;
-    background-color: rgb(8, 119, 223);
-    cursor: pointer;
-    border: none;
-    margin: 3px;
-    border: 2px solid rgb(8, 119, 223);
-    overflow: scroll;
-    box-shadow: 0px 0px 8px  rgb(8, 119, 223);
-  }
-  .landingpage button:hover{
-    background-color: transparent;
-    /* box-shadow:none; */
-    color: rgb(8, 119, 223);
-    text-shadow: 0px 0px 5px rgb(8, 119, 223);
-  }
-  [data-aos="blue_btn_flicker"]{
-    &.aos-animate{
-    animation: blue_btn_flicker 1s step-start 2;
-  }
+
+  25% {
+    width: 100%;
   }
 
-  $blue_box_shadow:0px 0px 8px  rgb(8, 119, 223);
-  $blue_border:2px solid rgb(8, 119, 223);
-  $blue_bg:rgb(8, 119, 223);
-$txt_color:azure;
-  @keyframes blue_btn_flicker {
-    0% {
-      border: 2px solid transparent;
-      box-shadow:none;
-      background-color: transparent;
-      color:$txt_color;
-    }
-    10%{
-      border:2px solid transparent;;
-      box-shadow:none ;
-      background-color: transparent;
-      color:$txt_color;
-    }
-    15%{
-      border:$blue_border;
-      box-shadow:$blue_box_shadow;
-      background-color: $blue_bg;
-    }
-    50%{
-      border:2px solid transparent;
-      color:$txt_color;
-      box-shadow:none;
-      background-color: transparent;
-    }
-    60%{
-      border:$blue_border;
-      box-shadow:$blue_box_shadow;
-      background-color: $blue_bg;
-    }
-    67% {
-      border: 2px solid transparent;
-      background-color: transparent;
-      color:$txt_color;
-      box-shadow:none;
-    }
-    75%{
-      border:$blue_border;
-      box-shadow:$blue_box_shadow;
-      background-color: $blue_bg;
-    }
-    100% {
-      border:$blue_border;
-      box-shadow:$blue_box_shadow;
-      background-color: $blue_bg;
-    }
+  75% {
+    width: 100%;
   }
+
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent
+  }
+
+  to {
+    border-color: rgb(8, 119, 223);
+  }
+}
+
+.typed-out {
+  display: inline-block;
+  width: fit-content;
+  text-overflow: auto;
+  white-space: normal;
+}
+
+.typed-out>h1 {
+  animation: typing 3s steps(15, end) infinite, blink 1.2s infinite;
+  border-right: 5px solid #ff7070;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+}
+
+
+.landingpage button {
+  color: black;
+  padding: 8px 16px;
+  border-radius: 3px;
+  background-color: rgb(8, 119, 223);
+  cursor: pointer;
+  border: none;
+  margin: 3px;
+  border: 2px solid rgb(8, 119, 223);
+  overflow: scroll;
+  box-shadow: 0px 0px 8px rgb(8, 119, 223);
+}
+
+.landingpage button:hover {
+  background-color: transparent;
+  /* box-shadow:none; */
+  color: rgb(8, 119, 223);
+  text-shadow: 0px 0px 5px rgb(8, 119, 223);
+}
+
+[data-aos="blue_btn_flicker"] {
+  &.aos-animate {
+    animation: blue_btn_flicker 1s step-start 2;
+  }
+}
+
+$blue_box_shadow: 0px 0px 8px rgb(8, 119, 223);
+$blue_border: 2px solid rgb(8, 119, 223);
+$blue_bg: rgb(8, 119, 223);
+$txt_color: azure;
+
+@keyframes blue_btn_flicker {
+  0% {
+    border: 2px solid transparent;
+    box-shadow: none;
+    background-color: transparent;
+    color: $txt_color;
+  }
+
+  10% {
+    border: 2px solid transparent;
+    ;
+    box-shadow: none;
+    background-color: transparent;
+    color: $txt_color;
+  }
+
+  15% {
+    border: $blue_border;
+    box-shadow: $blue_box_shadow;
+    background-color: $blue_bg;
+  }
+
+  50% {
+    border: 2px solid transparent;
+    color: $txt_color;
+    box-shadow: none;
+    background-color: transparent;
+  }
+
+  60% {
+    border: $blue_border;
+    box-shadow: $blue_box_shadow;
+    background-color: $blue_bg;
+  }
+
+  67% {
+    border: 2px solid transparent;
+    background-color: transparent;
+    color: $txt_color;
+    box-shadow: none;
+  }
+
+  75% {
+    border: $blue_border;
+    box-shadow: $blue_box_shadow;
+    background-color: $blue_bg;
+  }
+
+  100% {
+    border: $blue_border;
+    box-shadow: $blue_box_shadow;
+    background-color: $blue_bg;
+  }
+}

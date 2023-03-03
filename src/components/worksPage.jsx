@@ -1,10 +1,12 @@
 import { WorksCard } from "./worksCard";
+import apk from '../assests/app-debug.apk'
 export function WorksPage() {
   return (
     <div className="workspage">
       <a
         href="https://yuvarajsingh-0.github.io/"
         rel="noreferrer"
+        
         target="_blank"
       >
         <h1>My Works</h1>
@@ -12,7 +14,8 @@ export function WorksPage() {
       <div className="g-list">
         <WorksCard
           anime="green_flicker"
-          href="./../img/app-debug.apk"
+          href={apk}
+          download="flipkart price tracker"
           className="item workscard"
           title="Flipkart Price Traking App"
           desc="Flipkart Price tracker which integrates a Mobile application to add links to the Cloud JSON storage provided by <b>PantryCloud</b> and get notified through a Webhoook in Discord Channel when the price of the product changes."
