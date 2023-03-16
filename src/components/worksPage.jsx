@@ -6,7 +6,7 @@ export function WorksPage() {
       <a
         href="https://yuvarajsingh-0.github.io/"
         rel="noreferrer"
-        
+
         target="_blank"
       >
         <h1>My Works</h1>
@@ -47,7 +47,7 @@ export function WorksPage() {
           title="ToDo List Web App"
           desc=" A Simple Todo List with Authentication, MongoDB implemented in
           ExpressJS and MongooseJS for MongoDB integration and CRUD operations
-          on MongoDB"
+          on MongoDB <br/> <s>Deployed on Heroku</s> (Currently Down as Heroku stopped providing Free tier."
         />
 
         <WorksCard

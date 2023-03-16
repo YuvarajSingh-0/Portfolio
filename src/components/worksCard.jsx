@@ -10,7 +10,7 @@ export function WorksCard(props) {
     >
       <p style={{ fontSize: "2rem" }}>{props.title}</p>
       <br />
-      <p>{props.desc}</p> <br />
+      <p dangerouslySetInnerHTML={{ __html: props.desc }}></p> <br />
     </a>
   );
 }
