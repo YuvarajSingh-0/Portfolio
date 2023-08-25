@@ -14,11 +14,19 @@ export function WorksPage() {
       <div className="g-list">
         <WorksCard
           anime="green_flicker"
-          href={apk}
+          href="https://github.com/YuvarajSingh-0/PropertyManagement"
+          className="item workscard"
+          title="Property and Rental Management System"
+          desc="A web application for managing properties, tenants, and leases, built with Vite, React, and TailwindCSS. <br><br> It includes features for managing properties, tenants, leases, rent collection, maintenance requests, and reporting."
+        />
+        <WorksCard
+          anime="green_flicker"
+          // href={apk}
+          href="https://github.com/YuvarajSingh-0/personal-flipkart-scrape"
           download="flipkart price tracker"
           className="item workscard"
           title="Flipkart Price Traking App"
-          desc="Flipkart Price tracker which integrates a Mobile application to add links to the Cloud JSON storage provided by <b>PantryCloud</b> and get notified through a Webhoook in Discord Channel when the price of the product changes."
+          desc="Flipkart Price tracker which when added links to the Cloud JSON storage provided by <b>npoint.io</b> gets notified through a Webhoook in Discord Channel when the price of the product changes."
         />
 
         <WorksCard
