@@ -28,7 +28,7 @@ export function Contact() {
     });
   };
   const mobileToastifySuccess = () => {
-    toast.success("Form sent!", {
+    toast.success("Thank you for reaching out to me!", {
       position: "top-center",
       autoClose: 5000,
       hideProgressBar: true,
@@ -39,7 +39,7 @@ export function Contact() {
     });
   };
   const mobileToastifyFail = () => {
-    toast.error("Form failed to send.", {
+    toast.error("Failed to send Mesasge.", {
       position: "top-center",
       autoClose: 5000,
       hideProgressBar: true,
