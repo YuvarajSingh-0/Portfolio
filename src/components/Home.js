@@ -3,7 +3,7 @@ import * as React from "react";
 
 export default function Home() {
     const handleButtonClick = () => {
-        // handle button click event here
+        // pass
     };
 
     return (
