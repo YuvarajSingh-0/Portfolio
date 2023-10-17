@@ -70,7 +70,7 @@ export default function Home() {
                                 alt="whatsapp"
                                 className="aspect-square object-cover object-center w-6 overflow-hidden shrink-0"
                             />
-                            <div className="justify-center text-violet-600 text-base font-semibold self-center my-auto">
+                            <div className="justify-center cursor-pointer text-violet-600 text-base font-semibold self-center my-auto">
                                 Lets Talk
                             </div>
                         </Link>

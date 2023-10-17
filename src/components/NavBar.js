@@ -55,7 +55,7 @@ function NavBar() {
                   
               </button>
                 </Link>
-              <Link to='Contact' offset={-290} spy={true} onSetActive={() => setUrl('Contact')} smooth>
+              <Link to='Contact' offset={-360} spy={true} onSetActive={() => setUrl('Contact')} smooth>
               <button
                   onClick={handleButtonClick}
                   className="text-center text-lg font-semibold"
