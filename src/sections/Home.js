@@ -48,7 +48,7 @@ export default function Home() {
                     />
                 </div>
                 <div className="flex flex-col  items-stretch w-[14%] ml-5 max-md:w-full">
-                    <div className="flex  justify-end items-end flex-col my-auto max-md:mt-52">
+                    <div className="flex  justify-end md:items-end flex-col my-auto max-md:mt-52">
                         <div className="flex  max-w-full items-start gap-2 text-center">
                             <button
                                 onClick={handleButtonClick}

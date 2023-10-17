@@ -60,7 +60,7 @@ function NavBar() {
                   onClick={handleButtonClick}
                   className="text-center text-lg font-semibold"
               >
-                  <span className={`justify-center bg-no-repeat transition-[background] duration-700 ease-in-out bg-[url('./whitevioletbg.jpg')] bg-clip-text text-transparent hover:bg-[20%] ${url === 'Contact' ? 'bg-[20%]' : 'bg-[80%]'}`}><a href="#contact">Contact</a></span>
+                  <span className={`justify-center bg-no-repeat transition-[background] duration-700 ease-in-out bg-[url('./whitevioletbg.jpg')] bg-clip-text text-transparent hover:bg-[20%] ${url === 'Contact' ? 'bg-[20%]' : 'bg-[80%]'}`}>Contact</span>
                   
               </button>
               </Link>

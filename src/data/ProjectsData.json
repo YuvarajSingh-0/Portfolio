@@ -1,0 +1,27 @@
+[
+    {
+    "title":"XProfile",
+    "url":"https://xprofile-git-dev-youthicon.vercel.app/",
+    "description":"",
+    "image":"",
+    "tags":["Typescript","NextJS","Shadcn","TailwindCSS"],
+    "status":"online"
+    },
+    {
+    "title":"RentEase",
+    "url":"",
+    "description":"",
+    "image":"",
+    "tags":["ReactJS", "TailwindCSS","Firebase","Firestore"],
+    "status":"development"
+    },
+    {
+    "title":"InstAuto",
+    "url":"",
+    "description":"",
+    "image":"",
+    "tags":["Python", "Instagram API","cron","AWS S3","AWS Lambda"],
+    "status":""
+    }
+    
+]
