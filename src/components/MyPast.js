@@ -20,11 +20,11 @@ export default function MyPast() {
                                 srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/b4568fb1-6bfd-403b-b812-92c78ba731af?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/b4568fb1-6bfd-403b-b812-92c78ba731af?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/b4568fb1-6bfd-403b-b812-92c78ba731af?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/b4568fb1-6bfd-403b-b812-92c78ba731af?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/b4568fb1-6bfd-403b-b812-92c78ba731af?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/b4568fb1-6bfd-403b-b812-92c78ba731af?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/b4568fb1-6bfd-403b-b812-92c78ba731af?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/b4568fb1-6bfd-403b-b812-92c78ba731af?apiKey=f5d1f74c978a473e8f57d978a4ec13be&" className="aspect-[1.19] object-cover object-center w-[76px] overflow-hidden self-center shrink-0 -ml-1.5 mt-0.5"
                                 alt="Profile"
                             />
-                            <div className="   justify-center text-white text-center text-base self-center w-[221px] mt-4">
+                            {/* <div className="   justify-center text-white text-center text-base self-center w-[221px] mt-4">
                                 3 years as a
-                            </div>
-                            <div className="   justify-center text-white text-center text-3xl font-bold self-center mt-1.5">
-                                Programmer
+                            </div> */}
+                            <div className="justify-center text-white text-center text-3xl font-bold self-center mt-1.5">
+                                Open Source Contributor
                             </div>
                         </div>
                     </button>
@@ -38,11 +38,11 @@ export default function MyPast() {
                                 srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/3ec9d21b-1153-420c-a404-7ae54c4e0706?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ec9d21b-1153-420c-a404-7ae54c4e0706?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ec9d21b-1153-420c-a404-7ae54c4e0706?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ec9d21b-1153-420c-a404-7ae54c4e0706?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ec9d21b-1153-420c-a404-7ae54c4e0706?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ec9d21b-1153-420c-a404-7ae54c4e0706?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ec9d21b-1153-420c-a404-7ae54c4e0706?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/3ec9d21b-1153-420c-a404-7ae54c4e0706?apiKey=f5d1f74c978a473e8f57d978a4ec13be&" className="aspect-square object-cover object-center w-16 overflow-hidden self-center shrink-0 mt-1"
                                 alt="Profile"
                             />
-                            <div className="   justify-center text-white text-center text-base self-center w-[221px] mt-4">
+                            {/* <div className="   justify-center text-white text-center text-base self-center w-[221px] mt-4">
                                 3 years as a
-                            </div>
-                            <div className="   justify-center text-white text-center text-3xl font-bold self-center mt-1.5">
-                                Programmer
+                            </div> */}
+                            <div className="justify-center text-white text-center text-3xl font-bold self-center mt-1.5">
+                                Full-Stack Developer
                             </div>
                         </div>
                     </button>
@@ -56,11 +56,11 @@ export default function MyPast() {
                                 srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/b6b573d6-6312-433e-872e-148a6c33be41?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/b6b573d6-6312-433e-872e-148a6c33be41?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/b6b573d6-6312-433e-872e-148a6c33be41?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/b6b573d6-6312-433e-872e-148a6c33be41?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/b6b573d6-6312-433e-872e-148a6c33be41?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/b6b573d6-6312-433e-872e-148a6c33be41?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/b6b573d6-6312-433e-872e-148a6c33be41?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/b6b573d6-6312-433e-872e-148a6c33be41?apiKey=f5d1f74c978a473e8f57d978a4ec13be&" className="aspect-[1.19] object-cover object-center w-[76px] overflow-hidden self-center shrink-0 ml-1.5 mt-0.5"
                                 alt="Profile"
                             />
-                            <div className="   justify-center text-white text-center text-base self-center w-[221px] mt-4">
+                            {/* <div className="   justify-center text-white text-center text-base self-center w-[221px] mt-4">
                                 3 years as a
-                            </div>
-                            <div className="   justify-center text-white text-center text-3xl font-bold self-center mt-1.5">
-                                Programmer
+                            </div> */}
+                            <div className="justify-center text-white text-center text-3xl font-bold self-center mt-1.5">
+                                Problem Solver
                             </div>
                         </div>
                     </button>
@@ -68,30 +68,30 @@ export default function MyPast() {
 
                 </div>
             </article>
-            <article className="bg-violet-600 bg-opacity-10 self-center flex w-[898px] max-w-full flex-col mt-8 px-5 py-8 rounded-2xl">
-                <div className="self-center flex mb-0 w-[807px] max-w-full items-start justify-between gap-5 mt-0.5 max-md:flex-wrap max-md:justify-center">
-                    <div className="flex flex-col w-[149px]">
-                        <div className="   justify-center text-violet-600 text-center text-base self-center w-[221px]">
-                            Desenvolvedor
+            <article className="bg-violet-600 hidden md:flex bg-opacity-10 w-max self-center  max-w-full flex-col mt-8 px-5 py-8 rounded-2xl">
+                <div className="self-center flex px-5 mb-0 max-w-full items-start justify-between gap-14 mt-0.5 max-md:flex-wrap max-md:justify-center">
+                    <div className="flex flex-col max-w-[33.33%] w-max ">
+                        <div className="justify-center text-violet-600 text-center text-base self-center ">
+                            Developer
                         </div>
-                        <div className="   justify-center text-violet-600 text-center text-3xl font-bold self-stretch w-full mt-2">
-                            Front-end
-                        </div>
-                    </div>
-                    <div className="flex flex-col w-[191px]">
-                        <div className="   justify-center text-violet-600 text-center text-base self-center w-[221px]">
-                            Dezenas de projetos e
-                        </div>
-                        <div className="   justify-center text-violet-600 text-center text-3xl font-bold self-stretch w-full mt-1">
-                            Experiências
+                        <div className="justify-center text-violet-600 text-center text-3xl font-bold self-stretch w-max mt-2">
+                            FullStack
                         </div>
                     </div>
-                    <div className="flex flex-col w-40">
-                        <div className="   justify-center text-violet-600 text-center text-base self-stretch w-full">
-                            Designer Freelancer e
+                    <div className="flex flex-col max-w-[33.33%] w-max">
+                        <div className="justify-center text-violet-600 text-center text-base self-center ">
+                            Learning Mode
                         </div>
-                        <div className="   justify-center text-violet-600 text-center text-3xl font-bold self-center w-[221px] mt-1">
-                            UI · UX
+                        <div className="justify-center text-violet-600 text-center text-3xl font-bold self-stretch w-max mt-1">
+                            Knowledge
+                        </div>
+                    </div>
+                    <div className="flex flex-col max-w-[33.33%] w-max">
+                        <div className="justify-center text-violet-600 text-center text-base self-stretch w-full">
+                            Automation
+                        </div>
+                        <div className="justify-center text-violet-600 text-center text-3xl font-bold self-center w-max mt-1">
+                            DevOps
                         </div>
                     </div>
                 </div>
