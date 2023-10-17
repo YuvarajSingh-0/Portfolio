@@ -1,32 +1,50 @@
-import * as React from "react";
+import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
+import { faReact, faHtml5, faSquareJs, faGithub, faPython, faNodeJs, faDocker, faAws } from '@fortawesome/free-brands-svg-icons'
+import { IconBrandTailwind } from '@tabler/icons-react';
+import { IconBrandNextjs } from '@tabler/icons-react';
+import { IconBrandTerraform } from '@tabler/icons-react';
 
 export default function TechnologiesAndSkills() {
     return (
         <div id="Skills">
             <div className="self-center mx-auto flex max-w-full flex-col mt-36 px-5">
-                <button className="text-violet-500 w-max mx-auto text-center tracking-wider font-bold bg-violet-600 bg-opacity-10 rounded-lg px-3 py-1 ">👨‍⚖️ Skills | Experinces</button>
-
+                <button className="text-violet-500 w-max mx-auto text-center tracking-wider font-bold bg-violet-600 bg-opacity-10 rounded-lg px-3 py-1 ">
+                    👨‍⚖️ Skills | Experinces
+                </button>
                 <h1 className="text-white text-center text-5xl font-extrabold self-stretch mt-9 max-md:max-w-full max-md:text-4xl">
                     Technologies & Skills
                 </h1>
             </div>
             <div className="self-center flex w-full max-w-full flex-col mt-28 px-5">
-                <h2 className="   justify-center text-white text-opacity-50 text-center text-2xl self-center max-w-[568px]">
-                    Techs que uso no dia a dia
+                <h2 className="justify-center text-white text-opacity-50 text-center text-2xl self-center max-w-[568px]">
+                    Techs I use on a daily Basis
                 </h2>
-                <img
-                    loading="lazy"
-                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a211c4ce-09c8-413b-9ae7-7f3906d08dc5?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a211c4ce-09c8-413b-9ae7-7f3906d08dc5?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a211c4ce-09c8-413b-9ae7-7f3906d08dc5?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a211c4ce-09c8-413b-9ae7-7f3906d08dc5?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a211c4ce-09c8-413b-9ae7-7f3906d08dc5?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a211c4ce-09c8-413b-9ae7-7f3906d08dc5?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a211c4ce-09c8-413b-9ae7-7f3906d08dc5?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a211c4ce-09c8-413b-9ae7-7f3906d08dc5?apiKey=f5d1f74c978a473e8f57d978a4ec13be&" className="aspect-[13.54] object-cover object-center w-full overflow-hidden self-stretch mt-12 max-md:max-w-full"
-                    alt="Techs que uso no dia a dia"
-                />
-                <h2 className="   justify-center text-white text-opacity-50 text-center text-2xl self-center max-w-[568px] mt-16 max-md:max-w-full">
-                    Outras techs com que já realizei projetos
+                <div className="flex overflow-x-scroll items-center max-[1100px]:justify-start justify-center mt-10 gap-10">
+                    <FontAwesomeIcon icon={faReact} className="text-[rgba(123,74,226,0.5)] text-8xl " />
+                    <FontAwesomeIcon icon={faHtml5} className="text-[rgba(123,74,226,0.5)] text-8xl " />
+                    <FontAwesomeIcon icon={faSquareJs} className="text-[rgba(123,74,226,0.5)] text-8xl " />
+                    <IconBrandTailwind className="text-transparent shrink-0 text-8xl w-24 h-24 " fill="rgba(123,74,226,0.6)" />
+                    <FontAwesomeIcon icon={faGithub} className="text-[rgba(123,74,226,0.5)] text-8xl " />
+                    <FontAwesomeIcon icon={faPython} className="text-[rgba(123,74,226,0.5)] text-8xl " />
+                    <img src="./mongodb.svg"
+                        className="object-contain w-24 aspect-square shrink-0"
+                        alt="mongodb"
+                    />
+                    <FontAwesomeIcon icon={faNodeJs} className="text-[rgba(123,74,226,0.5)] text-8xl " />
+                </div>
+                <h2 className="justify-center text-white text-opacity-50 text-center text-2xl self-center max-w-[568px] mt-16 max-md:max-w-full">
+                    Other Techs I have worked with
                 </h2>
-                <img
-                    loading="lazy"
-                    srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/92971b65-c97a-453d-a9be-a3ae2bd2f5e4?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/92971b65-c97a-453d-a9be-a3ae2bd2f5e4?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/92971b65-c97a-453d-a9be-a3ae2bd2f5e4?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/92971b65-c97a-453d-a9be-a3ae2bd2f5e4?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/92971b65-c97a-453d-a9be-a3ae2bd2f5e4?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/92971b65-c97a-453d-a9be-a3ae2bd2f5e4?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/92971b65-c97a-453d-a9be-a3ae2bd2f5e4?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/92971b65-c97a-453d-a9be-a3ae2bd2f5e4?apiKey=f5d1f74c978a473e8f57d978a4ec13be&" className="aspect-[13.64] object-cover object-center w-[873px] overflow-hidden self-center shrink-0 mt-12 max-md:max-w-full"
-                    alt="Outras techs com que já realizei projetos"
-                />
+                <div className="flex items-center justify-center mt-10 gap-9">
+                    <IconBrandNextjs className="text-[rgba(123,74,226,0.5)] shrink-0 text-8xl w-16 h-16" />
+                    <FontAwesomeIcon icon={faDocker} className="text-[rgba(123,74,226,0.5)] text-5xl" />
+                    <img src="./postgres.svg" alt="postgres" className="w-16 aspect-square object-contain" />
+                    <IconBrandTerraform className="text-[rgba(123,74,226,0.5)] shrink-0 text-8xl w-16 h-16" />
+                    <FontAwesomeIcon icon={faAws} className="text-[rgba(123,74,226,0.5)] text-5xl" />
+                </div>
+
             </div>
         </div>
     );

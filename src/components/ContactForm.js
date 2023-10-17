@@ -60,7 +60,7 @@ export default function ContactForm() {
                 <span>Scroll to Top</span> <span className="inline"><img
                     loading="lazy"
                     srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/65e0b83a-9757-4523-bfec-7898e77c8949?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/65e0b83a-9757-4523-bfec-7898e77c8949?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/65e0b83a-9757-4523-bfec-7898e77c8949?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/65e0b83a-9757-4523-bfec-7898e77c8949?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/65e0b83a-9757-4523-bfec-7898e77c8949?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/65e0b83a-9757-4523-bfec-7898e77c8949?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/65e0b83a-9757-4523-bfec-7898e77c8949?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/65e0b83a-9757-4523-bfec-7898e77c8949?apiKey=f5d1f74c978a473e8f57d978a4ec13be&" className="aspect-square object-cover object-center w-8 overflow-hidden shrink-0"
-                    alt="Description of the image"
+                    alt="Go To Top"
                 /></span>
             </button>
         </section>
