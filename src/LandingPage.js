@@ -15,7 +15,7 @@ export default function MyComponent() {
             <Home />
             <Past />
             <About />
-            {/* <Projects /> */}
+            <Projects />
             <TechnologiesAndSkills />
             <ContactForm />
             <Footer />

@@ -1,27 +1,86 @@
 [
     {
-    "title":"XProfile",
-    "url":"https://xprofile-git-dev-youthicon.vercel.app/",
-    "description":"",
-    "image":"",
-    "tags":["Typescript","NextJS","Shadcn","TailwindCSS"],
-    "status":"online"
+        "title": "RentEase",
+        "live_url": "",
+        "github_url": "https://github.com/YuvarajSingh-0/RentEase",
+        "description": "A platform connecting owners and tenants: owners manage properties, tenants access homes, pay rent, and raise issues. Simple living for both.",
+        "image": "",
+        "tags": [
+            "ReactJS",
+            "TailwindCSS",
+            "Firebase",
+            "Firestore"
+        ],
+        "status": "development"
     },
     {
-    "title":"RentEase",
-    "url":"",
-    "description":"",
-    "image":"",
-    "tags":["ReactJS", "TailwindCSS","Firebase","Firestore"],
-    "status":"development"
+        "title": "InstAuto",
+        "live_url": "",
+        "github_url": "https://github.com/YuvarajSingh-0/instauto-posting",
+        "description": "Instagram auto posting deployed on AWS EC2 instance which posts an image(AWS S3) every 24 hours which is edited, to add random quote from Quotes API, by Python PILLOW module.",
+        "image": "",
+        "tags": [
+            "Python",
+            "Instagram API",
+            "cron",
+            "AWS S3",
+            "AWS Lambda"
+        ],
+        "status": ""
     },
     {
-    "title":"InstAuto",
-    "url":"",
-    "description":"",
-    "image":"",
-    "tags":["Python", "Instagram API","cron","AWS S3","AWS Lambda"],
-    "status":""
+        "title": "Flipkart Price Traking App",
+        "live_url": "https://discord.gg/K5CfEQTXsX",
+        "github_url": "https://github.com/YuvarajSingh-0/personal-flipkart-scrape",
+        "description": "Flipkart Price tracker which integrates a Mobile application to add links to the Cloud JSON storage provided by PantryCloud and get notified through a Webhoook in Discord Channel when the price of the product changes.",
+        "image": "./flipkart_discord.png",
+        "tags": [
+            "Python",
+            "Web Scraping",
+            "cron",
+            "Webhooks"
+        ],
+        "status": "offline"
+    },
+    {
+        "title": "Discord Bot",
+        "github_url": "https://github.com/YuvarajSingh-0/Rogue-Bot",
+        "live_url": "https://discord.gg/FpaMaS8ppf",
+        "description": "Rogue Bot enhances Discord server interaction with features like moderation, utility, and fun commands. Its modular structure allows easy customization to suit server needs.",
+        "image": "./discordbot.png",
+        "tags": [
+            "Python",
+            "Discord.py",
+            "Replit"
+        ],
+        "status": "online"
+    },
+    {
+        "title": "Simplest QR Code Generator",
+        "github_url": "https://github.com/YuvarajSingh-0/simplest-qrcode-gen/tree/master",
+        "live_url": "https://yuvarajsingh-0.github.io/simplest-qrcode-gen/",
+        "description": "The Simplest QR Code Generator you will find, implemented with React JS and a public QR code API",
+        "image": "./qrgen.png",
+        "tags": [
+            "ReactJS",
+            "qrserver.com",
+            "github"
+        ],
+        "status": "online"
+    },
+    {
+        "title": "ToDo List Web App",
+        "github_url": "https://github.com/YuvarajSingh-0/todoo-web-app",
+        "live_url": "",
+        "description": "A Simple Todo List with Authentication, MongoDB implemented in ExpressJS and MongooseJS for MongoDB integration and CRUD operations on MongoDB",
+        "image": "",
+        "tags": [
+            "ExpressJS",
+            "MongoDB",
+            "NodeJS",
+            "EJS templating",
+            "Heroku"
+        ],
+        "status": ""
     }
-    
 ]
