@@ -49,12 +49,13 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col  items-stretch w-[14%] ml-5 max-md:w-full">
                     <div className="flex  justify-end md:items-end flex-col my-auto max-md:mt-52">
-                        <div className="flex  max-w-full items-start gap-2 text-center">
+                        <a download={'./Yuvaraj-Singh-Resume(1.6).pdf'} href="test.pdf" className="flex  max-w-full items-start gap-2 text-center">
                             <button
                                 onClick={handleButtonClick}
                                 className="justify-center text-violet-600 text-base font-semibold self-center my-auto"
                             >
                                 Get Resume
+
                             </button>
                             <img
                                 loading="lazy"
@@ -62,7 +63,7 @@ export default function Home() {
                                 alt="arrow"
                                 className=" my-auto aspect-square object-cover object-center w-4 overflow-hidden shrink-0"
                             />
-                        </div>
+                        </a>
                         <Link to="Contact" smooth className="border w-max flex  items-start gap-2 mt-3 pl-4 pr-5 py-2.5 rounded-2xl border-solid border-violet-600 ">
                             <img
                                 loading="lazy"
