@@ -13,7 +13,7 @@ function NavBar() {
     };
 
     return (
-        <nav className="hidden md:flex sticky top-4 bg-violet-950 bg-opacity-30 backdrop-blur-lg rounded-2xl px-5 py-3 self-center w-full  items-start justify-between gap-5 mb-px max-md:max-w-full max-md:flex-wrap " >
+        <nav className="z-10 hidden md:flex sticky top-4 bg-violet-950 bg-opacity-30 backdrop-blur-lg rounded-2xl px-5 py-3 self-center w-full  items-start justify-between gap-5 mb-px max-md:max-w-full max-md:flex-wrap " >
             <img
                 loading="lazy"
                 srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/ad1cbdd3-63a5-4ebe-8b44-0741e14f30ea?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/ad1cbdd3-63a5-4ebe-8b44-0741e14f30ea?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ad1cbdd3-63a5-4ebe-8b44-0741e14f30ea?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/ad1cbdd3-63a5-4ebe-8b44-0741e14f30ea?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/ad1cbdd3-63a5-4ebe-8b44-0741e14f30ea?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/ad1cbdd3-63a5-4ebe-8b44-0741e14f30ea?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/ad1cbdd3-63a5-4ebe-8b44-0741e14f30ea?apiKey=f5d1f74c978a473e8f57d978a4ec13be&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/ad1cbdd3-63a5-4ebe-8b44-0741e14f30ea?apiKey=f5d1f74c978a473e8f57d978a4ec13be&"

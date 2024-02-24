@@ -28,6 +28,7 @@ function PomodoroApp() {
                     className="aspect-square object-contain my-auto object-center w-6 overflow-hidden shrink-0" /></a>
             </div>
         </section>
+        // TODO: Add contributions section
     );
 }
 

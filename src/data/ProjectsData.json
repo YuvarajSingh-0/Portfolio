@@ -1,17 +1,18 @@
 [
     {
-        "title": "RentEase",
-        "live_url": "",
-        "github_url": "https://github.com/YuvarajSingh-0/RentEase",
-        "description": "A platform connecting owners and tenants: owners manage properties, tenants access homes, pay rent, and raise issues. Simple living for both.",
-        "image": "",
+        "title": "FullStack Threads Clone",
+        "live_url": "https://threads-clone-swart-sigma.vercel.app",
+        "github_url": "https://github.com/YuvarajSingh-0/Threads-clone",
+        "description": "A FullStack Threads Clone with authentication and CRUD operations on threads and comments with an additional feature of communities. ",
+        "image": "./threads-clone.png",
         "tags": [
-            "ReactJS",
+            "NextJS",
             "TailwindCSS",
-            "Firebase",
-            "Firestore"
+            "MongoDB",
+            "Typescript",
+            "ClerkJS"
         ],
-        "status": "development"
+        "status": "online"
     },
     {
         "title": "InstAuto",
