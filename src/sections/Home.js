@@ -49,9 +49,8 @@ export default function Home() {
                 </div>
                 <div className="flex flex-col  items-stretch w-[14%] ml-5 max-md:w-full">
                     <div className="flex  justify-end md:items-end flex-col my-auto max-md:mt-52">
-                        <a download={'./Yuvaraj-Singh-Resume(1.6).pdf'} href="test.pdf" className="flex  max-w-full items-start gap-2 text-center">
+                        <a download={'Yuvaraj-Singh-Resume.pdf'} href="./Yuvaraj-Singh-Resume(1.6).pdf" className="flex  max-w-full items-start gap-2 text-center">
                             <button
-                                onClick={handleButtonClick}
                                 className="justify-center text-violet-600 text-base font-semibold self-center my-auto"
                             >
                                 Get Resume
