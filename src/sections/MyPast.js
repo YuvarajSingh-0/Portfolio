@@ -1,18 +1,14 @@
 import React from "react";
 
 export default function MyPast() {
-    const handleButtonClick = () => {
-        // handle button click event
-    };
 
     return (
         <section className="self-stretch flex w-full flex-col mt-36 px-5 max-md:max-w-full">
             <hr className="border border-opacity-20 border-violet-600"/>
             <article className="self-center w-[898px] max-w-full mt-24">
                 <div className="gap-5 flex max-md:flex-col max-md:items-stretch max-md:gap-0">
-                    <button
-                        className="flex flex-col items-stretch w-[33%] max-md:w-full"
-                        onClick={handleButtonClick}
+                    <a href="https://x.com/ngoworlddotorg/status/1714892280249905468" target="_blank" rel="noreferrer noopener"
+                        className="cursor-pointer flex flex-col items-stretch w-[33%] max-md:w-full"
                     >
                         <div className="border flex w-[246px] max-w-full grow flex-col mx-auto pt-10 pb-8 px-5 rounded-2xl border-solid border-violet-600 border-opacity-50 max-md:mt-12">
                             <img
@@ -24,10 +20,9 @@ export default function MyPast() {
                                 Open Source Contributor
                             </div>
                         </div>
-                    </button>
+                    </a>
                     <button
                         className="flex flex-col items-stretch w-[33%] max-md:w-full"
-                        onClick={handleButtonClick}
                     >
                         <div className="border flex w-[246px] max-w-full grow flex-col mx-auto pt-10 pb-8 px-5 rounded-2xl border-solid border-violet-600 border-opacity-50 max-md:mt-12">
                             <img
@@ -41,9 +36,7 @@ export default function MyPast() {
                         </div>
                     </button>
                     <button
-                        className="flex flex-col items-stretch w-[33%] max-md:w-full"
-                        onClick={handleButtonClick}
-                    >
+                        className="flex flex-col items-stretch w-[33%] max-md:w-full">
                         <div className="border flex w-[246px] max-w-full grow flex-col mx-auto pt-10 pb-8 px-5 rounded-2xl border-solid border-violet-600 border-opacity-50 max-md:mt-12">
                             <img
                                 loading="lazy"
